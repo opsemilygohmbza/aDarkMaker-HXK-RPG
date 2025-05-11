@@ -1,0 +1,101 @@
+RPG Maker MV窗口系统(rpg_windows.js)功能说明
+=====================================
+
+1. 窗口基类(Window_Base)
+----------------------
+- 所有游戏窗口的基类
+- 处理窗口外观样式
+- 提供文本绘制功能
+- 支持图标显示
+- 窗口动画效果
+
+2. 选择窗口(Window_Selectable)
+---------------------------
+- 可选择项目的窗口
+- 光标移动控制
+- 滚动功能
+- 项目布局管理
+- 选择确认/取消
+
+3. 命令窗口(Window_Command)
+------------------------
+- 显示命令选项列表
+- 支持禁用选项
+- 处理选项触发
+- 自动调整大小
+- 支持子类扩展
+
+4. 消息窗口(Window_Message)
+------------------------
+- 显示游戏对话文本
+- 文本分页显示
+- 等待用户输入
+- 支持选项分支
+- 特殊字符处理
+
+5. 战斗窗口
+---------
+- Window_BattleStatus: 战斗状态
+- Window_BattleActor: 角色选择
+- Window_BattleEnemy: 敌人选择
+- Window_BattleSkill: 技能列表
+- Window_BattleItem: 物品列表
+- Window_BattleLog: 战斗日志
+
+6. 菜单窗口
+---------
+- Window_MenuCommand: 主菜单
+- Window_MenuStatus: 状态显示
+- Window_MenuActor: 角色选择
+- Window_ItemCategory: 物品分类
+- Window_SkillType: 技能类型
+- Window_EquipStatus: 装备状态
+
+7. 商店窗口
+---------
+- Window_ShopCommand: 商店命令
+- Window_ShopBuy: 购买界面
+- Window_ShopSell: 出售界面
+- Window_ShopNumber: 数量选择
+- Window_ShopStatus: 物品状态
+
+8. 其他功能窗口
+------------
+- Window_Help: 帮助说明
+- Window_Gold: 金钱显示
+- Window_NameEdit: 名字输入
+- Window_NameInput: 输入键盘
+- Window_MapName: 地图名称
+- Window_ScrollText: 滚动文本
+
+9. 核心功能
+---------
+- 窗口皮肤系统
+- 文本渲染引擎
+- 输入处理机制
+- 动画效果系统
+- 布局管理器
+
+10. 开发建议
+----------
+- 继承正确的基类
+- 保持代码整洁
+- 优化绘制性能
+- 合理使用缓存
+- 注意内存管理
+
+11. 常见问题
+----------
+- 窗口刷新时机
+- 内容溢出处理
+- 动画性能优化
+- 皮肤兼容性
+- 输入响应优化
+
+12. 扩展开发
+----------
+- 自定义窗口样式
+- 新增特殊效果
+- 扩展输入方式
+- 优化显示逻辑
+- 添加新功能
